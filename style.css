@@ -53,11 +53,11 @@ main{
 .display div{
     padding-right: 1rem;
 }
-.current-output{
-    font-size: 2rem;
-}
-.current-input{
+.lastOperationScreen{
     font-size: 1.5rem;
+}
+.currentOperationScreen{
+    font-size: 2rem;
 }
 .cancellation{
     width: 100%;
@@ -99,6 +99,7 @@ button.cancellation-button{
 
 }
 .action-buttons button{
+    font-size: 20px;
     width: 23%;
     border: 1px solid black;
     border-radius: 10px;
