@@ -12,8 +12,8 @@
     <main id="main">
         <div class="container">
             <div class="display">
-                <div class="current-input">1 + 1 </div>
-                <div class="current-output">11</div>
+                <div class="lastOperationScreen">0</div>
+                <div class="currentOperationScreen">0</div>
             </div>
             <div class="cancellation">
                 <button id="clear" class="cancellation-button">
@@ -25,31 +25,32 @@
             </div>
             <div class="action-buttons">
                 <!-- row 1 -->
-                <button id="num7">7</button>
-                <button id="num8">8</button>
-                <button id="num9">9</button>
-                <button id="divide">/</button>
+                <button id="num7" class="num">7</button>
+                <button id="num8"  class="num">8</button>
+                <button id="num9"  class="num">9</button>
+                <button id="divide" class="operator">/</button>
                 <!-- row 2 -->
-                <button id="num4">4</button>
-                <button id="num5">5</button>
-                <button id="num6">6</button>
-                <button id="multiply">x</button>
+                <button id="num4"  class="num">4</button>
+                <button id="num5"  class="num">5</button>
+                <button id="num6"  class="num">6</button>
+                <button id="multiply" class="operator">x</button>
                 <!-- row 3 -->
-                <button id="num1">1</button>
-                <button id="num2">2</button>
-                <button id="num3">3</button>
-                <button id="subtraction">-</button>
+                <button id="num1"  class="num">1</button>
+                <button id="num2"  class="num">2</button>
+                <button id="num3"  class="num">3</button>
+                <button id="subtraction" class="operator">-</button>
                 <!-- row 4 -->
                 <button id="decimal">.</button>
-                <button id="zero">0</button>
+                <button id="zero"  class="num">0</button>
                 <button id="equal">=</button>
-                <button id="addition">+</button>
+                <button id="addition" class="operator">+</button>
             </div>
         </div>
     </main>
     <footer>
         Copyright © Saleem Lawal
     </footer>
+    <script src="./script.js"></script>
 </body>
 
 </html>
